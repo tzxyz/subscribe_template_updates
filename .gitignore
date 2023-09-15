@@ -1,0 +1,46 @@
+# 忽略编译输出目录
+/dist/
+
+# 忽略依赖管理文件夹（npm 或 yarn）
+/node_modules/
+/yarn-error.log
+
+# 忽略编辑器临时文件
+.vscode/
+.idea/
+
+# 忽略本地 TypeScript 编译缓存
+*.tsbuildinfo
+
+# 忽略环境配置文件（通常应该在项目中包含一个示例文件）
+.env
+.env.local
+.env.*.local
+
+# 忽略生成的配置文件
+tsconfig.tsbuildinfo
+
+# 忽略运行时缓存
+.npm
+.npmrc
+.pnpm
+.pnpm-lock.yaml
+pnpm-debug.log
+
+# 忽略 Webpack 生成的文件
+/build/
+/webpack-*
+
+# 忽略测试生成的文件
+/coverage/
+
+# 忽略其他构建和工具文件
+/tools/
+/scripts/
+
+# 忽略日志文件
+*.log
+
+# 忽略自动生成的文档
+/documentation/
+
