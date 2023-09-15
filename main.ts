@@ -7,7 +7,7 @@ async function subscribeTemplateUpdates() {
 
   const keyring = new Keyring({ type: 'sr25519' });
 
-  // 替换为你的账户地址和密码
+  // 订阅账户地址
   const account = keyring.addFromUri('//Alice', { name: 'Alice' });
   const accountId = account.address;
 
